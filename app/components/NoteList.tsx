@@ -11,7 +11,7 @@ function NoteList({ notes }: any) {
             <article>
               <header>
                 <ul className="note-meta">
-                  <li>#{index + 1}</li>
+                  <li>{index + 1}</li>
                   <li>
                     <time dateTime={note.id}>
                       {new Date(note.id).toLocaleDateString("en-US", {
